@@ -144,6 +144,19 @@ img {
     color: hsl(220, 14%, 75%);
     text-decoration: line-through;
   }
+  #add-to-cart-btn {
+    color: white;
+    border: none;
+    height: 3rem;
+    width: 200px ;
+    background-color:  hsl(26, 100%, 55%);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+  }
+  #add-to-cart-btn:hover {
+    background-color: hsl(25, 100%, 70%);
+  }
 
 main {
     display: flex;
