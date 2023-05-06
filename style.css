@@ -66,13 +66,14 @@ li a {
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
-img { 
-     max-width: 50%; 
+img {  
      height: auto; 
-     margin: 1rem;  
+     width: 100%;
+     
    } 
 
   .text-container {
@@ -89,9 +90,34 @@ img {
    
   }
 
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
 
-li {
-    float: left;
+  .attribution a {
+    color: hsl(228, 71%, 38%);
+  }
+
+  #product-images {
+
+  }
+
+  .image-container>div {
+ width: 60px; 
+  }
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60svh;
+    gap: 2rem;
+}
+
+#main-product-image {
+    width: 280px;
 }
 
 
