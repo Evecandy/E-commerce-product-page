@@ -1,0 +1,108 @@
+/*.main {
+    display: flex;
+    justify-content: space-between;
+  }*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    width: 100%;
+    /* height: 80px; */
+    display: flex;
+    align-items: center
+}
+
+#nav>ul {
+    display: flex;
+    gap: 1rem;
+}
+
+#navbar #nav {}
+
+li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #888585;
+}
+
+.inline-block-div {
+    display: inline-block;
+}
+
+#sneaker-company {
+    color: rgb(255, 153, 0);
+    font-size: small;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fall-limited-edition {
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.paragraph-class {
+    color: rgb(48, 47, 47);
+    font-family: Helvetica;
+    font-size: medium;
+}
+
+.inline-block-div-1 {
+    font-weight: 800;
+}
+
+.right-container {
+    float: right;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+img { 
+     max-width: 50%; 
+     height: auto; 
+     margin: 1rem;  
+   } 
+
+  .text-container {
+    display: flex;
+    text-align: right;
+    align-items: flex-start;
+  }
+
+  p {
+    margin: 0;
+    vertical-align: top;
+     display: inline-block; 
+    vertical-align: middle; 
+   
+  }
+
+
+li {
+    float: left;
+}
+
+
+/*justify-content: space-between;*/
+/* color: grey; */
+/*text-align: center;*/
+/* padding: 10px; */
+/* text-decoration: none; */
+/* background-color: #f7f6f6;
+  }
+
+  li a:hover {
+    background-color: #c40e0e;
+  }
